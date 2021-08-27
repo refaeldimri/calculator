@@ -2,7 +2,7 @@ import './App.css';
 import { useState } from 'react';
 
 function App() {
-  const [result, setResult] = useState("refael");
+  const [result, setResult] = useState("");
 
   const handleClick = (e) => {
     setResult(result.concat(e.target.name))
